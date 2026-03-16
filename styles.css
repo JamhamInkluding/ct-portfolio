@@ -1,0 +1,64 @@
+body {
+    background: palegoldenrod;
+}
+
+.page-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 90vh;
+}
+
+.headmage {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.headbox {
+    width: fit-content;
+    height: fit-content;
+    background: rgb(4, 58, 4);
+    font-size: 36px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background: rgb(101, 88, 186);
+    font-size: 36px;
+    font-family: Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+header,
+footer {
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+.social-logo {
+    width: min-content;
+    height: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.box-pic {
+    display: flex;
+    width: fit-content;
+    height: 200px;
+}

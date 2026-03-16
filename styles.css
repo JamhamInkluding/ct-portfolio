@@ -16,7 +16,7 @@ body {
 }
 
 .headbox {
-    width: fit-content;
+    width: min-content;
     height: fit-content;
     background: rgb(4, 58, 4);
     font-size: 36px;
@@ -24,10 +24,20 @@ body {
     color: white;
 }
 
+.intro {
+    width: fit-content;
+    height: 200px;
+    background: rgb(2, 103, 69);
+    font-size: 36px;
+    font-family: Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+
 .item {
     width: 200px;
     height: 200px;
-    background: rgb(101, 88, 186);
+    background: rgb(2, 103, 69);
     font-size: 36px;
     font-family: Geneva, Tahoma, sans-serif;
     color: rgb(0, 0, 0);

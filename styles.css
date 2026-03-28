@@ -15,8 +15,8 @@ body {
 
 .headbox {
     background-image: url(Plant.png);
-    height: 10cap;
-    border-radius: 10px;
+    height: 12cap;
+    border-radius: 50px;
     width: 100%;
     font-size: 24px;
     display: grid;
@@ -28,6 +28,7 @@ body {
 
 .intro {
     display: flex;
+    border-radius: 15px;
     width: 1100px;
     height: fit-content;
     background: rgb(2, 103, 69);
@@ -65,8 +66,9 @@ body {
 }
 
 .reflection {
-    width: 800px;
-    height: 200px;
+    display: flex;
+    width: 100%;
+    height: fit-content;
     border-radius: 10px;
     background: rgb(10, 168, 182);
     font-size: 24px;
